@@ -28,6 +28,7 @@ import java.util.HashSet;
 public class RepeatedSubstringPattern {
 
     public boolean repeatedSubstringPattern(String s) {
+
         if (s==null||s.equals(""))return false;
         int len = s.length();
         int lenSqrt = (int)Math.sqrt(len);
